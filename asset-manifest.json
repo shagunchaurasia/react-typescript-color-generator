@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-typescript-color-generator/static/css/main.2c84d147.css",
+    "main.js": "/react-typescript-color-generator/static/js/main.3238b15e.js",
+    "static/js/787.1567dff6.chunk.js": "/react-typescript-color-generator/static/js/787.1567dff6.chunk.js",
+    "index.html": "/react-typescript-color-generator/index.html",
+    "main.2c84d147.css.map": "/react-typescript-color-generator/static/css/main.2c84d147.css.map",
+    "main.3238b15e.js.map": "/react-typescript-color-generator/static/js/main.3238b15e.js.map",
+    "787.1567dff6.chunk.js.map": "/react-typescript-color-generator/static/js/787.1567dff6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c84d147.css",
+    "static/js/main.3238b15e.js"
+  ]
+}
