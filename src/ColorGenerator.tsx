@@ -23,16 +23,22 @@ const ColorGenerator = () => {
   return (
     <div>
       <section>
-        <form action="" onSubmit={handleSubmit}>
-          <input
-            type="text"
-            value={color}
-            onChange={(e) => setColor(e.target.value)}
-            placeholder="#f15025"
-            style={error ? { borderColor: "red" } : { borderColor: "green" }}
-          />
-          <button>Generate</button>
-        </form>
+        <h2>Color Generator</h2>
+        <h4>Enter a color and generate shades and tints </h4>
+        (Click on a color to copy the hexcode)
+        <div style={{ display: "flex", flexDirection: "row" , justifyContent:"center"}}>
+          <form action="" onSubmit={handleSubmit}>
+            <input
+              type="text"
+              value={color}
+              onChange={(e) => setColor(e.target.value)}
+              placeholder="#f15025"
+              className="inputField"
+              style={error ? { borderColor: "red" } : { borderColor: "green" }}
+            />
+            <button className="button">Generate</button>
+          </form>
+        </div>
       </section>
       <section
         style={{
